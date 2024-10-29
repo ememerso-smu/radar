@@ -1,30 +1,380 @@
 [
   {
-    "name": "Babel",
+    "name": "Java",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."
+  },
+  {
+    "name": "PHP",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "A popular general-purpose scripting language that is especially suited to web development.\r\nFast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
+  },
+  {
+    "name": "Joomla",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Joomla! is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications."
+  },
+  {
+    "name": "MySQL",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "test"
+    "isNew": false,
+    "description": "MySQL is a widely used relational database management system (RDBMS). MySQL is free and open-source. MySQL is ideal for both small and large applications."
   },
   {
-    "name": "Apache Kafka",
+    "name": "PostgreSQL",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": false,
+    "description": "PostgreSQL also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance."
+  },
+  {
+    "name": "SQLServer",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": false,
+    "description": "Microsoft SQL Server (Structured Query Language) is a proprietary relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network (including the Internet)."
+  },
+  {
+    "name": "NestJS",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications. "
+  },
+  {
+    "name": "Next.js",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation."
+  },
+  {
+    "name": "AWS Lambda",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "AWS Lambda is an event-driven, serverless Function as a Service provided by Amazon as a part of Amazon Web Services. It is designed to enable developers to run code without provisioning or managing servers. It executes code in response to events and automatically manages the computing resources required by that code."
+  },
+  {
+    "name": "AWS ECR",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy to store, share, and deploy container images."
+  },
+  {
+    "name": "AWS ECS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Elastic Container Service (Amazon ECS) provides a fully managed container service solution that's easy to use, scalable, secure, and reliable."
+  },
+  {
+    "name": "AWS Parameter Store",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Parameter Store, a capability of AWS Systems Manager, provides secure, hierarchical storage for configuration data management and secrets management. You can store data such as passwords, database strings, Amazon Machine Image (AMI) IDs, and license codes as parameter values. You can store values as plain text or encrypted data. You can reference Systems Manager parameters in your scripts, commands, SSM documents, and configuration and automation workflows by using the unique name that you specified when you created the parameter."
+  },
+  {
+    "name": "AWS Cloudwatch",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon CloudWatch is a monitoring service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners."
+  },
+  {
+    "name": "AWS ALB",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Load balance HTTP and HTTPS traffic with advanced request routing targeted at the delivery of modern applications."
+  },
+  {
+    "name": "AWS API Gateway",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale."
+  },
+  {
+    "name": "AWS CLI",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "The AWS Command Line Interface (CLI) provides a unified tool to manage your AWS services directly from the command line."
+  },
+  {
+    "name": "AWS RDS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Relational Database Service (Amazon RDS) is an easy-to-manage relational database service optimized for total cost of ownership. It is simple to set up, operate, and scale with demand. Amazon RDS automates undifferentiated database management tasks, such as provisioning, configuring, backing up, and patching. Amazon RDS allows customers to create a new database in minutes and offers flexibility to customize databases to meet their needs across eight engines and two deployment options. "
+  },
+  {
+    "name": "AWS S3",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Millions of customers of all sizes and industries store, manage, analyze, and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize and analyze data, and configure fine-tuned access controls to meet specific business and compliance requirements."
+  },
+  {
+    "name": "AWS SQS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Simple Queue Service (Amazon SQS) offers a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems and components. Amazon SQS offers common constructs such as dead-letter queues and cost allocation tags. It provides a generic web services API that you can access using any programming language that the AWS SDK supports."
+  },
+  {
+    "name": "AWS SNS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon Simple Notification Service (Amazon SNS) is a web service that coordinates and manages the delivery or sending of messages to subscribing endpoints or clients. "
+  },
+  {
+    "name": "Strapi",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Strapi is an open-source, Node. js based, Headless CMS that saves developers a lot of development time while giving them the freedom to use their favorite tools and frameworks. Strapi also enables content editors to streamline content delivery (text, images, video, etc) across any devices."
+  },
+  {
+    "name": "Confluent",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and usable data products with the market leading Data Streaming Platform."
+  },
+  {
+    "name": "TypeORM",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES2021). Its goal is to always support the latest JavaScript features and provide additional features that help you to develop any kind of application that uses databases - from small applications with a few tables to large-scale enterprise applications with multiple databases."
+  },
+  {
+    "name": "Firebase",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Google Firebase is a set of cloud-based development tools that helps mobile app developers build, deploy and scale their apps."
+  },
+  {
+    "name": "Vite",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Vite is a blazing fast frontend build tool powering the next generation of web applications. "
+  },
+  {
+    "name": "UIPath",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "UiPath Inc. is a global software company that makes robotic process automation (RPA) software. It was founded in Bucharest, Romania, by Daniel Dines and Marius Tîrcă. Its headquarters are in New York City. The company's software monitors user activity to automate repetitive front and back office tasks, including those performed using other business software such as customer relationship management or enterprise resource planning (ERP) software. "
+  },
+  {
+    "name": "AWS X-RAY",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your application’s underlying components."
+  },
+  {
+    "name": "AWS EventBridge",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, software-as-a-service (SaaS) applications, and AWS services and routes that data to targets such as AWS Lambda. You can set up routing rules to determine where to send your data to build application architectures that react in real time to all of your data sources. EventBridge enables you to build event-driven architectures that are loosely coupled and distributed."
+  },
+  {
+    "name": "login using azure saml",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "login using Azure SAML from NestJS"
+  },
+  {
+    "name": "Tanstack Query",
     "ring": "trial",
     "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "test"
+    "isNew": false,
+    "description": "TanStack Query is configurable down to each observer instance of a query with knobs and options to fit every use-case. It comes wired up with dedicated devtools, infinite-loading APIs, and first class mutation tools that make updating your data a breeze. Don't worry though, everything is pre-configured for success!"
   },
   {
-    "name": "Android-x86",
-    "ring": "assess",
+    "name": "Tanstack Form",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "TanStack Form is the ultimate solution for handling forms in web applications, providing a powerful and flexible approach to form management. Designed with first-class TypeScript support, headless UI components, and a framework-agnostic design, it streamlines form handling and ensures a seamless experience across various front-end frameworks."
+  },
+  {
+    "name": "Tanstack Router",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "A fully type-safe React router with built-in data fetching, stale-while revalidate caching and first-class search-param APIs."
+  },
+  {
+    "name": "Tanstack Table",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "TanStack Table is a Headless UI library for building powerful tables & datagrids for TS/JS, React, Vue, Solid, Qwik, and Svelte."
+  },
+  {
+    "name": "Remix",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff."
+  },
+  {
+    "name": "Sentry",
+    "ring": "trial",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "test"
+    "isNew": false,
+    "description": "Sentry is an error monitoring platform designed to help developers quickly detect, diagnose and resolve problems in their applications."
   },
   {
-    "name": "GrapCloud lift and shifthQL",
-    "ring": "hold",
+    "name": "Turborepo",
+    "ring": "trial",
     "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "test"
+    "isNew": false,
+    "description": "Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust."
+  },
+  {
+    "name": "tRPC",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "tRPC is a type safe TypeScript-based library that leverages the RPC API design to process API requests and deliver a response."
+  },
+  {
+    "name": "Bun",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Bun is a JavaScript runtime, package manager, test runner and bundler built from scratch using the Zig programming language. It was designed by Jarred Sumner as a drop-in replacement for Node.js. Bun uses WebKit's JavaScriptCore as the JavaScript engine, unlike Node.js and Deno, which both use V8."
+  },
+  {
+    "name": "SWR",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by HTTP RFC 5861 (opens in a new tab). SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data."
+  },
+  {
+    "name": "Deno",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Deno is the open-source JavaScript runtime for the modern web. Built on web standards with zero-config TypeScript, unmatched security, and a complete built-in toolchain."
+  },
+  {
+    "name": "build application using CQRS",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "CQRS stands for Command and Query Responsibility Segregation, a pattern that separates read and update operations for a data store. Implementing CQRS in your application can maximize its performance, scalability, and security."
+  },
+  {
+    "name": "Fastify",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture."
+  },
+  {
+    "name": "Prisma ORM",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Prisma provides the best experience for your team to work and interact with databases. Even complex things like connection pooling, caching, real-time database subscriptions are a breeze with our products.\r\nBuild your application, fortify to make everything run smoothly, and grow with your users and requirements."
+  },
+  {
+    "name": "GraphQL",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "GraphQL is a data query and manipulation language for APIs that allows a client to specify what data it needs. A GraphQL server can fetch data from separate sources for a single client query and present the results in a unified graph. It is not tied to any specific database or storage engine."
+  },
+  {
+    "name": "saga pattern",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "The Saga design pattern is a way to manage data consistency across microservices in distributed transaction scenarios. A saga is a sequence of transactions that updates each service and publishes a message or event to trigger the next transaction step. If a step fails, the saga executes compensating transactions that counteract the preceding transactions."
+  },
+  {
+    "name": "Mantine",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Mantine is a React components library focused on providing great user and developer experience. Mantine development was started in January 2021 and the 1.0 version was released on May 3rd, 2021, and since then, more than 200 releases have been published."
+  },
+  {
+    "name": "Astro",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "Astro is a JavaScript web framework optimized for building fast, content-driven websites."
+  },
+  {
+    "name": "testing using Jest",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!"
+  },
+  {
+    "name": "build structure repo using Monorepos Nx",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "Nx is a powerful open-source build system that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality."
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": false,
+    "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
+  },
+  {
+    "name": "GitLab",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": false,
+    "description": "GitLab is an Open Source code repository and collaborative software development platform for large DevOps and DevSecOps projects. GitLab is free for individuals."
+  },
+  {
+    "name": "GitHub",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": false,
+    "description": "GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project."
+  },
+  {
+    "name": "Azure",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice."
+  },
+  {
+    "name": "logging using AWS X-RAY",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": false,
+    "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your application’s underlying components."
   }
 ]
