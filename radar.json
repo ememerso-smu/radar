@@ -65,7 +65,7 @@
   {
     "name": "AWS ECR",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy to store, share, and deploy container images."
   },
@@ -79,35 +79,35 @@
   {
     "name": "AWS Parameter Store",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Parameter Store, a capability of AWS Systems Manager, provides secure, hierarchical storage for configuration data management and secrets management. You can store data such as passwords, database strings, Amazon Machine Image (AMI) IDs, and license codes as parameter values. You can store values as plain text or encrypted data. You can reference Systems Manager parameters in your scripts, commands, SSM documents, and configuration and automation workflows by using the unique name that you specified when you created the parameter."
   },
   {
     "name": "AWS Cloudwatch",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Amazon CloudWatch is a monitoring service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners."
   },
   {
     "name": "AWS ALB",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Load balance HTTP and HTTPS traffic with advanced request routing targeted at the delivery of modern applications."
   },
   {
     "name": "AWS API Gateway",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale."
   },
   {
     "name": "AWS CLI",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "The AWS Command Line Interface (CLI) provides a unified tool to manage your AWS services directly from the command line."
   },
@@ -128,21 +128,21 @@
   {
     "name": "AWS SQS",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Amazon Simple Queue Service (Amazon SQS) offers a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems and components. Amazon SQS offers common constructs such as dead-letter queues and cost allocation tags. It provides a generic web services API that you can access using any programming language that the AWS SDK supports."
   },
   {
     "name": "AWS SNS",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Amazon Simple Notification Service (Amazon SNS) is a web service that coordinates and manages the delivery or sending of messages to subscribing endpoints or clients. "
   },
   {
     "name": "Strapi",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Strapi is an open-source, Node. js based, Headless CMS that saves developers a lot of development time while giving them the freedom to use their favorite tools and frameworks. Strapi also enables content editors to streamline content delivery (text, images, video, etc) across any devices."
   },
@@ -184,7 +184,7 @@
   {
     "name": "AWS X-RAY",
     "ring": "trial",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your application’s underlying components."
   },
@@ -240,7 +240,7 @@
   {
     "name": "Sentry",
     "ring": "trial",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Sentry is an error monitoring platform designed to help developers quickly detect, diagnose and resolve problems in their applications."
   },
@@ -266,9 +266,9 @@
     "description": "Bun is a JavaScript runtime, package manager, test runner and bundler built from scratch using the Zig programming language. It was designed by Jarred Sumner as a drop-in replacement for Node.js. Bun uses WebKit's JavaScriptCore as the JavaScript engine, unlike Node.js and Deno, which both use V8."
   },
   {
-    "name": "SWR",
+    "name": "caching in frontend using SWR",
     "ring": "trial",
-    "quadrant": "platforms",
+    "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by HTTP RFC 5861 (opens in a new tab). SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data."
   },
